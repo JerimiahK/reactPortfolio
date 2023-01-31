@@ -4,7 +4,7 @@ import { Canvas } from "@react-three/fiber";
 export default function NavTabs() {
   return (
     <Canvas>
-      <ScrollControls damping={1} pages={2} style={{ overflow: "hidden" }}>
+      <ScrollControls damping={1} pages={2}>
         <Scroll html style={{ width: "100%" }}>
           <a
             className="button"
