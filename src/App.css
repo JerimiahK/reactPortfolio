@@ -221,12 +221,6 @@
     min-height: 100%;
 }
 
-.page {
-    display: block;
-    width: 100%;
-    min-height: 100%;
-}
-
 .home {
     -webkit-animation: fade-in 3s linear;
     animation: fade-in 3s linear;
@@ -468,8 +462,8 @@
     }
 }
 
-/* @media screen and (max-width: 425px) {
-    .projects {
-        font-size: 200%;
+@media screen and (max-width: 450px) {
+    .info-item {
+        font-size: 150%;
     }
-} */
+}

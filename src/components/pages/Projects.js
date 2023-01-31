@@ -9,6 +9,7 @@ export default function Projects() {
           html
           style={{
             width: "100%",
+            height: "100%",
             right: "calc(var(--pad) * 3)",
             bottom: "calc(var(--pad) * 8)",
           }}
