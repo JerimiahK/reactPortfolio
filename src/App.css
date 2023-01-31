@@ -161,7 +161,7 @@
 
 .nav {
     margin-top: 50px;
-    width: 100vw;
+    width: 40vw;
     height: 90vh;
 }
 
@@ -246,11 +246,6 @@
     font-family: "League Spartan", sans-serif;
     font-size: 100%;
     font-style: italic;
-}
-
-.neonText {
-    color: #8000ff;
-    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #8000ff, 0 0 82px #8000ff, 0 0 92px #8000ff, 0 0 102px #8000ff, 0 0 300px #8000ff;
 }
 
 .projects {
