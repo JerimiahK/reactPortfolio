@@ -145,7 +145,7 @@
 
 #header {
     position: fixed;
-    z-index: 10;
+    z-index: 3;
     left: calc(var(--pad) * 2);
     top: calc(var(--pad) * 2);
     mix-blend-mode: difference;
@@ -167,7 +167,7 @@
 .nav {
     margin-top: 50px;
     width: 40vw;
-    height: 90vh;
+    height: 80vh;
 }
 
 .navbar {
@@ -261,7 +261,7 @@
     align-items: flex-end;
     position: absolute;
     right: calc(var(--pad) * 3);
-    bottom: calc(var(--pad) * 2);
+    bottom: calc(var(--pad) * -20);
 }
 
 .project-item {
@@ -273,7 +273,7 @@
     column-gap: 15px;
     text-decoration: none;
     color: white;
-    line-height: 2;
+    line-height: 3.5;
     font-family: "Raleway", sans-serif;
 }
 
