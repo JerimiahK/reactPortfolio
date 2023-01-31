@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 
 export default function Projects() {
   return (
-    <Canvas style={{ height: "100vh" }}>
+    <Canvas style={{ width: "100%", height: "100vh" }}>
       <ScrollControls damping={1} pages={2}>
         <Scroll
           html

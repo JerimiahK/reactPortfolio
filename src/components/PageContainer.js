@@ -22,9 +22,7 @@ export default function PageContainer() {
       <header id="header">
         <h1>Jerimiah Kripakov</h1>
         <p>Creative//Designer//Developer</p>
-        <nav className="nav">
           <NavTabs />
-        </nav>
       </header>
       <main className="content">
         <div className="inner-content">

@@ -457,8 +457,7 @@
 
 @media screen and (max-width: 425px) {
     .button {
-        margin: 0;
-        font-size: 200%;
+        font-size: 170%;
     }
 }
 
