@@ -1,6 +1,5 @@
 import Points from "./Points"
 import { Canvas } from "@react-three/fiber";
-import { ScrollControls, Scroll } from "@react-three/drei";
 
 
 export default function Three() {

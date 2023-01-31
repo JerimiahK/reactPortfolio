@@ -21,7 +21,7 @@ export default function Projects() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="project-title">GameSauce</div>
+                <div className="project-title">GameSauce NHL Application</div>
                 <div className="project-info">2023 / Project</div>
               </a>
               <a

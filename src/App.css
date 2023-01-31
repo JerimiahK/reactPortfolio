@@ -144,8 +144,9 @@
 }
 
 #header {
+    width: 50%;
     position: fixed;
-    z-index: 3;
+    z-index: 2;
     left: calc(var(--pad) * 2);
     top: calc(var(--pad) * 2);
     mix-blend-mode: difference;
@@ -208,9 +209,9 @@
 .content {
     z-index: 2;
     position: fixed;
-    left: 0;
+    right: 0;
     top: 0;
-    width: 100%;
+    width: 50%;
     height: 100%;
     overflow: hidden;
 }
@@ -445,7 +446,13 @@
 
 @media screen and (max-width: 450px) {
     .about-me {
-        font-size: 85%;
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .home {
+        right: 10%;
     }
 }
 
