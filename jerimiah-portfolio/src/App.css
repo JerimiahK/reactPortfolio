@@ -1,0 +1,449 @@
+:root {
+    --pad: max(20px, 4vmin);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#coverPage {
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    will-change: opacity;
+    background-color: #0d0d0d;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -moz-column-gap: 0.5em;
+    column-gap: 0.5em;
+    font-size: 30px;
+    -webkit-animation: fade-out 4s linear;
+    animation: fade-out 4s linear;
+}
+
+.coverName {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    -webkit-animation: fade-out 4s linear;
+    animation: fade-out 4s linear;
+}
+
+.coverPortfolio {
+    font-family: "Raleway", sans-serif;
+    font-weight: lighter;
+    -webkit-animation: fade-out 4s linear;
+    animation: fade-out 4s linear;
+}
+
+#page {
+    background-color: #0d0d0d;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#background {
+    position: fixed;
+    z-index: 1;
+    left: var(--pad);
+    right: var(--pad);
+    top: var(--pad);
+    bottom: var(--pad);
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.mask {
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.maskTop {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: var(--pad);
+    background-color: #0d0d0d;
+    opacity: 0.9;
+}
+
+.maskBottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: var(--pad);
+    background-color: #0d0d0d;
+    opacity: 0.9;
+}
+
+.frame {
+    position: fixed;
+    z-index: 10;
+    left: var(--pad);
+    right: var(--pad);
+    top: var(--pad);
+    bottom: var(--pad);
+    mix-blend-mode: difference;
+    pointer-events: none;
+}
+
+.frame_line {
+    position: absolute;
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+.frame_line_left {
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+}
+
+.frame_line_right {
+    right: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+}
+
+.frame_line_top {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1px;
+}
+
+.frame_line_bottom {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+}
+
+#header {
+    position: fixed;
+    z-index: 10;
+    left: calc(var(--pad) * 2);
+    top: calc(var(--pad) * 2);
+    mix-blend-mode: difference;
+}
+
+#header h1 {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-weight: lighter;
+    font-size: 300%;
+}
+
+#header p {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+}
+
+.nav {
+    margin-top: 50px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.navbar-item {
+    color: #fff;
+    font-family: "League Spartan", sans-serif;
+    list-style: none;
+}
+
+.navbar-item a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 100%;
+}
+
+.button {
+    -webkit-animation: fade-in 1s linear;
+    animation: fade-in 1s linear;
+}
+
+.navbar-item a:hover {
+    opacity: 30%;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.content {
+    z-index: 2;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.inner-content {
+    position: relative;
+    min-height: 100%;
+}
+
+.page {
+    display: block;
+    width: 100%;
+    min-height: 100%;
+}
+
+.home {
+    -webkit-animation: fade-in 3s linear;
+    animation: fade-in 3s linear;
+    position: absolute;
+    right: calc(var(--pad) * 2);
+    bottom: calc(var(--pad) * 1.5);
+    white-space: nowrap;
+}
+
+.about-me {
+    font-family: "League Spartan", sans-serif;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    color: white;
+    font-size: 100%;
+    font-weight: 800;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+
+.motto {
+    font-family: "League Spartan", sans-serif;
+    font-size: 100%;
+    font-style: italic;
+}
+
+.neonText {
+    color: #8000ff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #8000ff, 0 0 82px #8000ff, 0 0 92px #8000ff, 0 0 102px #8000ff, 0 0 300px #8000ff;
+}
+
+.projects {
+    -webkit-animation: fade-in 3s linear;
+    animation: fade-in 3s linear;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    right: calc(var(--pad) * 3);
+    bottom: calc(var(--pad) * 2);
+}
+
+.project-item {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: baseline;
+    -moz-column-gap: 15px;
+    column-gap: 15px;
+    text-decoration: none;
+    color: white;
+    line-height: 2;
+    font-family: "Raleway", sans-serif;
+}
+
+.project-item:hover {
+    transition: 0.4s;
+    opacity: 30%;
+    color: #fff;
+}
+
+.project-title {
+    font-size: 300%;
+    font-weight: 800;
+    font-family: "League Spartan", sans-serif;
+}
+
+.project-info {
+    font-family: "League Spartan", sans-serif;
+}
+
+.info {
+    -webkit-animation: fade-in 3s linear;
+    animation: fade-in 3s linear;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    right: calc(var(--pad) * 3);
+    bottom: calc(var(--pad) * 2);
+    padding-right: 10px;
+}
+
+.info-item {
+    color: white;
+    text-decoration: none;
+    font-size: 200%;
+    font-family: "Raleway", sans-serif;
+}
+
+.info-item:hover {
+    transition: 0.4s;
+    opacity: 30%;
+    color: #fff;
+}
+
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .project-title {
+        font-size: 200%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .project-title {
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .project-info {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .project-item {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .project-title {
+        font-size: 120%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .project-title {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .about-me {
+        font-size: 85%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #header {
+        font-size: 110%;
+    }
+}
