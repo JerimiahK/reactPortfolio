@@ -1,18 +1,9 @@
 import Points from "./Points"
 import { Canvas } from "@react-three/fiber";
-import * as THREE from "three";
+import { ScrollControls, Scroll } from "@react-three/drei";
 
 
 export default function Three() {
-  // const backgroundColor = new THREE.Color(0x050505);
-  // const fog = new THREE.Fog(0x050505, 2000, 3500);
-  // const styles = {
-  //   sceneStyle: {
-  //     backgroundColor: backgroundColor,
-  //     fog: fog,
-  //   },
-  // };
-
   return (
     <div id="background">
       <Canvas

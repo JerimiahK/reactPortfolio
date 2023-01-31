@@ -161,6 +161,8 @@
 
 .nav {
     margin-top: 50px;
+    width: 100vw;
+    height: 90vh;
 }
 
 .navbar {
@@ -185,6 +187,11 @@
 .button {
     -webkit-animation: fade-in 1s linear;
     animation: fade-in 1s linear;
+    color: #fff;
+    text-decoration: none;
+    font-family: "League Spartan", sans-serif;
+    list-style: none;
+    font-size: 500%;
 }
 
 .navbar-item a:hover {
