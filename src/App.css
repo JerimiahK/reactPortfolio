@@ -433,7 +433,7 @@
 
 @media screen and (max-width: 450px) {
     .project-title {
-        font-size: 120%;
+        font-size: 100%;
     }
 }
 
@@ -454,3 +454,16 @@
         font-size: 110%;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .button {
+        margin: 0;
+        font-size: 200%;
+    }
+}
+
+/* @media screen and (max-width: 425px) {
+    .projects {
+        font-size: 200%;
+    }
+} */

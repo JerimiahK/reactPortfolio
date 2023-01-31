@@ -32,7 +32,7 @@ export default function NavTabs() {
           <a
             className="button"
             href="/info"
-            style={{ position: "absolute", top: "100vh", left: "13vw" }}
+            style={{ position: "absolute", top: "100vh"}}
           >
             Info
           </a>
