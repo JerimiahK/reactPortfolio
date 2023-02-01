@@ -440,7 +440,7 @@
 
 @media screen and (max-width: 450px) {
     .about-me {
-        font-size: 60%;
+        font-size: 70%;
     }
 }
 
@@ -452,13 +452,13 @@
 
 @media screen and (max-width: 450px) {
     #header {
-        font-size: 110%;
+        font-size: 63%;
     }
 }
 
 @media screen and (max-width: 425px) {
     .button {
-        font-size: 170%;
+        font-size: 300%;
     }
 }
 
