@@ -4,7 +4,7 @@ import { Canvas } from "@react-three/fiber";
 export default function Projects() {
   return (
     <Canvas style={{ width: "100%", height: "100vh" }}>
-      <ScrollControls damping={1} pages={2}>
+      <ScrollControls damping={0.4} pages={2}>
         <Scroll
           html
           style={{
@@ -27,11 +27,20 @@ export default function Projects() {
               </a>
               <a
                 className="project-item"
+                href="https://getyoweather.netlify.app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="project-title">Get Yo Weather Application</div>
+                <div className="project-info">2023 / Project</div>
+              </a>
+              <a
+                className="project-item"
                 href="https://golden-goose-finance.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="project-title">Golden Goose Finance</div>
+                <div className="project-title">Golden Goose Finance App.</div>
                 <div className="project-info">2023 / Project</div>
               </a>
               <a
