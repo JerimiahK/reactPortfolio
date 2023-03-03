@@ -230,6 +230,7 @@
     align-items: center;
     align-items: baseline;
     -moz-column-gap: 15px;
+    width: 100%;
     column-gap: 15px;
     text-decoration: none;
     color: white;
