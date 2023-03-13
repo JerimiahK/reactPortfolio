@@ -16,49 +16,64 @@ export default function Projects() {
         >
           <section className="page" id="projects">
             <div className="projects">
+              {/* Fermentations */}
+              <a
+                className="project-item"
+                href="https://fermentationsdemo.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="project-title">Fermentations</div>
+                <div className="project-info">2023 / Freelance Work</div>
+              </a>
+              {/* GameSauce */}
               <a
                 className="project-item"
                 href="https://gamesauce-project.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="project-title">GameSauce NHL Application</div>
+                <div className="project-title">GameSauce</div>
                 <div className="project-info">2023 / Project</div>
               </a>
+              {/* Get Yo Weather */}
               <a
                 className="project-item"
                 href="https://getyoweather.netlify.app"
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="project-title">Get Yo Weather Application</div>
+                <div className="project-title">Get Yo Weather</div>
                 <div className="project-info">2023 / Project</div>
               </a>
+              {/* Golden Goose Finance */}
               <a
                 className="project-item"
                 href="https://golden-goose-finance.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="project-title">Golden Goose Finance App.</div>
+                <div className="project-title">Golden Goose Finance</div>
                 <div className="project-info">2023 / Project</div>
               </a>
+              {/* Study Buddies */}
               <a
                 className="project-item"
                 href="https://studybuddiezzz.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="project-title">STUDY BUDDY Application</div>
+                <div className="project-title">Study Buddy</div>
                 <div className="project-info">2022 / Project</div>
               </a>
+              {/* Webaboos */}
               <a
                 className="project-item"
                 href="https://jerimiahk.github.io/WEBaboos/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="project-title">WEBABOOS Application</div>
+                <div className="project-title">Webaboos</div>
                 <div className="project-info">2022 / Project</div>
               </a>
             </div>

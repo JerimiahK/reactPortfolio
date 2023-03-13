@@ -220,7 +220,7 @@
     align-items: flex-end;
     position: absolute;
     right: calc(var(--pad) * 3);
-    bottom: calc(var(--pad) * -10);
+    bottom: calc(var(--pad) * -13);
 }
 
 .project-item {
@@ -252,6 +252,7 @@
 
 .project-info {
     font-family: "League Spartan", sans-serif;
+    font-size: 125%;
 }
 
 .info {
