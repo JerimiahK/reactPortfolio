@@ -22,7 +22,7 @@ function Box() {
     let color = new THREE.Color();
 
     const n = 3000,
-      n2 = n / 2; // particles spread in the cube
+    n2 = n / 2; // particles spread in the cube
 
     for (let i = 0; i < particles; i++) {
       // positions
@@ -53,11 +53,11 @@ function Box() {
     geometry.computeBoundingSphere();
 
     return geometry;
-  });
+  }, []);
 
   const material = useMemo(() => {
     return new THREE.PointsMaterial({ size: 5, vertexColors: true });
-  });
+  }, []);
 
   return <points ref={cubeRef} geometry={geometry} material={material} />;
 }

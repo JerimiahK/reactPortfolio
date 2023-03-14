@@ -1,9 +1,11 @@
+import React from "react";
 import { Route, Routes } from "react-router-dom";
-import NavTabs from "./pages/NavTabs";
-import Homepage from "./pages/Homepage";
-import Projects from "./pages/Projects";
-import Info from "./pages/Info";
-import Three from "./pages/Three";
+
+const Homepage = React.lazy(() => import("./pages/Homepage"));
+const NavTabs = React.lazy(() => import("./pages/NavTabs"));
+const Projects = React.lazy(() => import("./pages/Projects"));
+const Info = React.lazy(() => import("./pages/Info"));
+const Three = React.lazy(() => import("./pages/Three"));
 
 export default function PageContainer() {
   return (

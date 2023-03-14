@@ -14,9 +14,6 @@ export default function Homepage() {
           <span>learn quickly, am self</span>
           <span>motivated, and aspire to</span>
           <span>be better everyday.</span>
-          {/* <span className="motto neonText">Imrpove Lives.</span>
-          <span className="motto neonText">Create Dreams.</span>
-          <span className="motto neonText">Inspire Ideas.</span> */}
         </p>
       </div>
     </section>
