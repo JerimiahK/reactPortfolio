@@ -128,6 +128,7 @@
     color: #fff;
     font-family: "Raleway", sans-serif;
     font-style: italic;
+    font-size: 150%;
 }
 
 .nav {
@@ -220,7 +221,26 @@
     align-items: flex-end;
     position: absolute;
     right: calc(var(--pad) * 3);
-    bottom: calc(var(--pad) * -13);
+    bottom: calc(var(--pad) * -16.8);
+}
+
+.projectHeaderContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.projectHeaderArrow {
+    padding-bottom: 2.5%;
+    transform: scale(1.5);
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    animation: blink 2s infinite 5s;
+}
+
+.projectHeader {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    animation: blink 2s infinite 5s;
 }
 
 .project-item {
@@ -369,6 +389,21 @@
     }
 }
 
+/* Scroll Arrow Blink */
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 @media screen and (max-width: 840px) {
     .project-title {
         font-size: 200%;
@@ -420,6 +455,9 @@
 @media screen and (max-width: 450px) {
     #header {
         font-size: 63%;
+    }
+    #header p {
+        font-size: 45%;
     }
 }
 
