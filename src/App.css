@@ -109,7 +109,7 @@
 }
 
 #header {
-    width: 33%;
+    width: 38%;
     position: fixed;
     z-index: 2;
     left: calc(var(--pad) * 2);
@@ -429,7 +429,7 @@
         font-size: 63%;
     }
     #header p {
-        font-size: 45%;
+        font-size: 100%;
     }
 }
 
@@ -458,11 +458,15 @@
         font-size: 300%;
     }
     #header h1 {
-        font-size: 156%;
+        font-size: 175%;
         font-weight: bolder;
     }
+    #header p {
+        font-weight: bolder;
+        font-size: 90%;
+    }
     .projects {
-    bottom: calc(var(--pad) * -20);
+    bottom: calc(var(--pad) * -15);
     }
     .info-item {
         font-size: 150%;
