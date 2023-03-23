@@ -407,7 +407,10 @@
     }
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 1024px) {
+    .nav {
+        padding-top: 10%;
+    }
     .projects {
         bottom: calc(var(--pad) * -23);
     }
@@ -456,14 +459,18 @@
     }
     #header h1 {
         font-size: 156%;
+        font-weight: bolder;
     }
     .projects {
-    bottom: calc(var(--pad) * -23);
+    bottom: calc(var(--pad) * -20);
     }
     .info-item {
         font-size: 150%;
     }
     .home {
         right: 10%;
+    }
+    .nav {
+        padding-top: 20%;
     }
 }
